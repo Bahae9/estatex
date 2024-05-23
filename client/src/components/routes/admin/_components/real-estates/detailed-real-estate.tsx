@@ -167,7 +167,7 @@ const DetailedRealEstate = ({ isAdmin }: { isAdmin: boolean }) => {
                         agentId: agents.map((el) => el.id)[
                           Math.floor(Math.random() * agents.length)
                         ],
-                        buyerId: userId,
+                        buyerId: currentUserId,
                         realEstateId: id,
                       }),
                     }
