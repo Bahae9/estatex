@@ -30,9 +30,9 @@ export default function ContractsTable({
           <CardTitle>Contrats</CardTitle>
           <CardDescription
             className="line-clamp-2"
-            title=" Les cinq derniers contrats signés aujourd'hui"
+            title="The latest contracts created."
           >
-            Les cinq derniers contrats signés aujourd'hui
+            The latest contracts created.
           </CardDescription>
         </div>
         <Button asChild size="sm" className="ml-auto gap-1">
